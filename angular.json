@@ -35,7 +35,6 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "https://mysticblaze085.github.io/blz-workspace/",
               "budgets": [
                 {
                   "type": "initial",
