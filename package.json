@@ -7,6 +7,7 @@
     "build": "ng build blz-workspace",
     "watch": "ng build blz-workspace --watch --configuration development",
     "test": "ng test blz-workspace",
+    "test:headless": "ng test blz-workspace --watch=false --browsers=ChromeHeadless",
     "playground": "angular-playground"
   },
   "private": true,
@@ -36,6 +37,7 @@
     "karma-jasmine": "~5.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "ng-packagr": "^14.0.0",
+    "puppeteer": "^19.4.1",
     "typescript": "~4.7.2"
   }
 }
