@@ -3,7 +3,7 @@ name: Blz Workspace Application
 on: [pull_request]
 
 jobs:
-  deploy:
+  pull-request:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
