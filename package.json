@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
+    "start": "ng serve blz-workspace",
+    "build": "ng build blz-workspace",
+    "watch": "ng build blz-workspace --watch --configuration development",
+    "test": "ng test blz-workspace",
     "playground": "angular-playground"
   },
   "private": true,
