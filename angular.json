@@ -17,7 +17,6 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "baseHref": "/blz-workspace/",
             "outputPath": "dist/blz-workspace",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -35,6 +34,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/blz-workspace/",
               "budgets": [
                 {
                   "type": "initial",
