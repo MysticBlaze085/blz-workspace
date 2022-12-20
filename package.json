@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve blz-workspace",
     "build": "ng build blz-workspace",
+    "build:prod": "ng build blz-workspace --prod",
     "watch": "ng build blz-workspace --watch --configuration development",
     "test": "ng test blz-workspace",
     "test:headless": "ng test blz-workspace --watch=false --browsers=ChromeHeadless",
